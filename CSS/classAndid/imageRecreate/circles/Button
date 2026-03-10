@@ -1,0 +1,53 @@
+<Doctype html>
+    <html>
+    <head>
+        <tittle>Target image</tittle>
+        <style>
+            body{
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #6592CF;
+
+            Target container: ;
+            width:400px;
+            height:300px;
+            position:relative;
+            overflow:hidden;
+            background-color: #243D83;
+            
+             border-radius: 20px;
+                height: 100px;
+                width: 100px;
+                position:absolute;
+                top:50%;
+                left:50%;
+                background-color: #EEB850;
+
+              circle1: ;
+                width: 150px;
+                height: 150px;
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                border-radius: 50%;
+                background-color: ##243D83;
+               
+
+                circle2: ;
+                width: 100px;
+                height: 100px;
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                border-radius: 50%;
+                background-color: #EEB850;
+        </style>
+
+
+
+          }
