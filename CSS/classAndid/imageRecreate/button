@@ -1,0 +1,32 @@
+body{
+ background:#6592cf;
+}
+.button{
+  background-color: #EEB850;
+  width: 200px;
+  height: 100px;
+  margin: 28px auto;
+  position:relative;
+  .colorsize{
+circle1
+}
+.circle1{
+  width: 50px;
+  height: 50px;
+  background-color: #243D83;
+  border-radius: 50%;
+  position:absolute;
+  top:25px;
+  left:25px;
+}
+  .circle2{
+    width: 50px;
+    height: 50px;
+    background-color: #243D83;
+    border-radius: 50%;
+    position:absolute;
+    top:25px;
+    left:125px;
+  }
+  .circle3
+}
