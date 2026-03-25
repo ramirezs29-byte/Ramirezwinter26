@@ -1,0 +1,24 @@
+<html lang="en">
+<body>
+    <header>
+        <ul>
+            <h4>Flexbox uses to new terms "flex container" and "flex items"</h4>
+            <h4>flex items are nested inside a flex container</h4>
+            <h4>flex items can be containers themselves</h4>
+    </header>
+    <div class="menu-container">
+        <div class="flex-item" data>Aug 14,2016</div>
+        <div class="sign up ">
+        <div class="log in">login</div>
+        </div>
+       </div>
+    </div>
+    <div class="header-container"
+    <div class="header">
+        <div class="subscribe">Subscribe</div>
+        <div class="logo"><"></div>
+        <div class="nav-item">
+            <a href="
+        </div>
+    </div>
+</body>

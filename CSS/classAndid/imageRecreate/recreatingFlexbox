@@ -1,0 +1,31 @@
+<div class="container">
+    <div class=top row">
+        <div class="box"></div>
+
+    <div class="box middle"></div>
+    <div class="innerbox"></div>
+    <div class="inner-box"></div>
+    </div>
+    <div class="box"></div>
+</div>
+  <div class="bottom"></div>
+   <div class="left"></div>
+
+    <div class="right"></div>
+    <div class="right-box"></div>
+    <div class="right-box"></div>
+    </div>
+
+    <Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex box layout</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: ;Arial, Helvetica, sans-serif;
+            background:
+        }
+    </style>
+</head>
