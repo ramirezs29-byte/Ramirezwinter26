@@ -1,0 +1,23 @@
+<Doctype html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox design practice</title>
+    <link rel="stylesheet" href="style.css">
+</
+ 
+    <div class="flex box design">
+    <h>container<h>
+        <div class="logo box"></div>
+        <div class="link boxes"></div>
+        <div class="cta button</div>
+        <div class="hero section</div>
+        <div class="box cards"</div>
+        <div class="footer"</div>
+        <nav-class=navphotos>
+        <hero card+links>
+
+
+    </div>
+</body>
+</html>
