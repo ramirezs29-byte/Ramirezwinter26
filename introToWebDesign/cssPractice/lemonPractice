@@ -1,0 +1,33 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <tittle>Lemon Lime Logo</tittle>
+            <style>
+                .logo-container 
+                width:400px;
+                height:300px;
+                background-color:#OB2429;
+                position:relative;
+                overflow:hidden;
+            }
+            .leaf-left{
+                background-color:#1A4541;
+                left:50px;
+                transform:rotate(-15deg);
+
+            }
+            .leaf-middle {
+                <background-color: id="F3AC3C">left12opx;
+                z-index:1;
+                transform:rotate(25deg);
+            }
+            </style>
+            </head>
+        <body>
+            <div class="logo-container">
+                <div class="leaf-left"></div>
+                <div class="leaf-middle"></div>
+                <div class="leaf-right"></div>
+            </div>
+        </body>
+    </html>
