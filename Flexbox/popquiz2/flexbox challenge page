@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Practice Challenge</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: #8ecae6;
+    }
+
+    .page-header {
+      background-color: #023047;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      border-bottom: 5px solid #ffb703;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="page-header">
+    <h2>Flexbox Practice Challenge</h2>
+    <p>Write CSS to make your page look exactly like this.</p>
+  </div>
+
+  <!-- ROW 1: NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">Ocean Co.</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Explore</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="nav-cta">Get Started</div>
+  </nav>
+
+  <!-- ROW 2: MAIN + RIGHT PANELS -->
+  <div class="content-row">
+    <main class="col-main">
+      <h2>Main Content Area</h2>
+      <p>This column takes up 3 parts of the available width.</p>
+    </main>
+    <div class="col-right">
+      <div class="right-top">
+        <h3>Top Panel</h3>
+        <p>Upper half of the right column.</p>
+      </div>
+      <div class="right-bottom">
+        <h3>Bottom Panel</h3>
+        <p>Lower half of the right column.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 3: CARDS -->
+  <div class="card-row">
+    <div class="card card-a">
+      <h4>Card A — Wider</h4>
+      <p>This card is three times as wide as B and C.</p>
+      <p>It sits at the bottom of the row.</p>
+      <p>Extra content here makes the row tall enough to see the difference.</p>
+    </div>
+    <div class="card card-b">
+      <h4>Card B</h4>
+      <p>Sits at the top of the row.</p>
+    </div>
+    <div class="card card-c">
+      <h4>Card C</h4>
+      <p>Floats in the middle of the row vertically.</p>
+    </div>
+  </div>
+
+</body>
+</html>

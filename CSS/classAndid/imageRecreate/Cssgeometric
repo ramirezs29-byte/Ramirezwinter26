@@ -1,0 +1,72 @@
+body{
+ background:#6592cf;
+}
+.star{
+  star-color:dark orange;
+  margin:auto
+   font-size:10m;
+   position:relative;
+   display::-webkitblock;
+   width:0px;
+   height:0px
+   border-right:
+   border-bottom:
+   border-left:
+   transform:rotate(35deg);
+
+
+}
+ .circle1{
+  width: 100px;
+  height: 100px;
+  background-color:
+  border-radius: 50%;
+  position:absolute;
+  top:150px;
+  left:45px;
+}
+  .middle square{
+    width: 100px;
+    height: 100px;
+    background-color: #CF5376;
+    border-radius: 50%; 
+    position:absolute;
+    top:25px;
+    left:125px;
+  }
+ .right rectangle{
+  width: 150px;
+  height: 60px;
+  background-color: #C75F71;
+  border-radius: 50%;
+  position:absolute;
+  top: 20px;px;
+  left:20px;
+}
+   .left rectangle{
+  width: 150px;
+  height: 100px;
+  background-color: #FFC067;
+  border-radius: 50%;
+  position:absolute;
+  top:20px;
+  left: 20px;px;
+}
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: #4272FF;
+  border-radius: 50%;
+  position:absolute;
+  top:25px;
+  left:125px;
+}
+.Diamond{
+  width: 100px;
+  height: 100px;
+  background-color: #069494;
+  border-radius: 50%;
+  position:absolute;
+  top:25px;
+  left:125px;
+}
