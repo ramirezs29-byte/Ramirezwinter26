@@ -1,0 +1,28 @@
+body{
+ min-height:250vh;
+margin:0;
+background-color: white;
+display:flex;
+}
+.box1{
+    display:flex;
+    background:blue;
+    width:100px;
+    height:100px;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-family:Arial, sans-serif;
+}
+.box2{
+    display:flex;
+    background:purple
+    width:100px;
+    height:100px;
+    jus
+}
+.box3{
+    background:blue;
+    width:100px;
+    height:100px;
+}
