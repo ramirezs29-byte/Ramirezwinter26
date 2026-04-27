@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    border:white solid 5px;
+}
+
+.container{
+    display:flex;
+    flex-direction:column ;
+    height:100vh;
+    gap:10px;
+    padding: 10px;
+    box-sizing:border-box;
+    background: #989ee7;
+    border:#1d247c solid 3px;
+}    
+.top{
+    flex:2;
+    background-color:#d97b7b;
+    border:#5b2a2a solid 3px;
+
+  
+}
+.middle{
+    flex:2;
+    background-color:#4fd1c5;
+    border:#1d5d4c solid 3px;
+}
+.left{
+    flex:1;
+    background-color:#e6e08a;
+    border:#86771b solid 3px;
+    
+}
+    
+.right{
+    flex:1;
+    background-color:#e6e08a;
+    border:#86771b solid 3px;
+}
