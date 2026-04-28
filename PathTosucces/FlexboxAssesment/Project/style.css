@@ -14,6 +14,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  line-height: 1.1;
 }
 
 header h1 {
@@ -26,7 +27,7 @@ header h2 {
 
 nav {
   background: lightcoral;
-  padding: 10px 20px;
+  padding: 0px 20px;
   border-bottom: black solid 2px;
   display: flex;
   gap: 20px;
@@ -37,10 +38,31 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
 }
 
 #contact-me {
+  margin: 0;
   margin-left: auto;
+  background: black;
+  padding: 8px;
+  align-self: flex-end;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  margin: 20px;
+  background: rgb(230, 226, 226);
+  padding: 10px;
+}
+
+aside h3 {
+  text-align: center;
 }
 
 .content {
@@ -68,4 +90,6 @@ img {
 footer {
   text-align: center;
   font-weight: bold;
+  background: rgb(159, 155, 155);
+  padding: 20px;
 }
