@@ -1,0 +1,83 @@
+/* 1. Global Reset & Layout */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 2. Grouped Flex Centering */
+header, nav, .content {
+  display: flex;
+}
+
+header {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(190, 122, 122);
+  border-block: black solid 2px; /* Combines top and bottom */
+  line-height: 1.1;
+}
+
+header h1 { margin-bottom: 0; }
+header h2 { margin-top: 0; }
+
+/* 3. Navigation & Links */
+nav {
+  background: lightcoral;
+  padding: 0 20px;
+  border-bottom: black solid 2px;
+  gap: 20px;
+}
+
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 0; /* Replaces top/bottom margin */
+}
+
+#contact-me {
+  margin: 0 0 0 auto; /* Pushes to the right */
+  background: black;
+  padding: 8px;
+  align-self: flex-end;
+}
+
+/* 4. Main Content Area */
+main { display: flex; }
+
+aside {
+  margin: 20px;
+  padding: 10px;
+  background: #e6e2e2; /* Shorter hex for your RGB */
+  text-align: center;
+}
+
+.content {
+  margin: 20px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+section {
+  border-left: black solid 2px;
+  padding: 10px;
+  flex: 1 1 250px;
+}
+
+/* 5. Assets & Footer */
+img {
+  margin: 0 20px 20px;
+  height: 50vh;
+  width: 100%; /* Ensures responsiveness */
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+
+
+
+
+
