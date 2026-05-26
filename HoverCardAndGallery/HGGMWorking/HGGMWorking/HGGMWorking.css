@@ -1,6 +1,7 @@
 .contact-section{
     background-color:#999999;
     text-align:center;
+    padding:60px;
 
 }
 
@@ -9,7 +10,52 @@
     margin:0px auto;
     text-transform: uppercase;
     border:2px solid chartreuse;
-    letter-spacing:0.2px;
+    letter-spacing:0.2em;
+}
+
+.contact-title{
+    color:#ffffff;
+    font-weight:500;
+    font-size:xx-larger;
+    margin-bottom:25px;
+
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    text-align:left;
+    max-width:400px;
+    margin:0px auto;
+    letter-spacing:0.1 ;
+
+}
+
+label{
+    color:#0000;
+    border:1px solid #;
+    text-transform:uppercase;
+    background-color:#bbbbb
+
+}
+
+button{
+    background-color:#BE0F34;
+    color:#ffffff;
 }
 
 
+
+
+<div class="title-box">
+        <h1>Chose Your Own Adventure</h1>
+        <h2>Home</h2>
+    </div>
+    <nav class="navbar"
+    <a href="index.html">Home page</a>
+    <a href="scene1.html">First story scene+carousel</a>
+    <a href="scene2.html">Continuation scene+carousel</a>
+     <a href="scene3.html">Final scene+carousel</a>
+      <a href="ending1.html">An early or alternate ending</a>
+      <a href="ending2.html">Story's conclusion</a>
