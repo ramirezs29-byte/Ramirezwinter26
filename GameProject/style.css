@@ -1,4 +1,4 @@
-/* 1. Global Reset & Layout */ 
+/* 1. Global Reset & Layout */
 body {
   margin: 0;
   min-height: 100vh;
@@ -8,7 +8,9 @@ body {
 }
 
 /* 2. Grouped Flex Centering */
-header, nav, .content {
+header,
+nav,
+.content {
   display: flex;
 }
 
@@ -21,8 +23,12 @@ header {
   line-height: 1.1;
 }
 
-header h1 { margin-bottom: 0; }
-header h2 { margin-top: 0; }
+header h1 {
+  margin-bottom: 0;
+}
+header h2 {
+  margin-top: 0;
+}
 
 /* 3. Navigation & Links */
 nav {
@@ -47,7 +53,9 @@ nav a {
 }
 
 /* 4. Main Content Area */
-main { display: flex; }
+main {
+  display: flex;
+}
 
 aside {
   margin: 20px;
@@ -76,8 +84,3 @@ img {
   object-fit: cover;
   object-position: 50% 70%;
 }
-
-
-
-
-
