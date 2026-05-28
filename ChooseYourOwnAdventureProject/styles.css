@@ -21,6 +21,11 @@ header h2 {
   color: white;
 }
 
+img {
+  margin: 0 -15px;
+  /* opposite of main's padding */
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -109,6 +114,7 @@ button[type="submit"]:hover {
 }
 
 .slide img {
+  margin: 0;
   height: 100%;
   width: 100%;
 
