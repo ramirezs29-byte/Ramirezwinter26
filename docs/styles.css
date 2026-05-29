@@ -24,6 +24,8 @@ header h2 {
 img {
   margin: 0 -15px;
   /* opposite of main's padding */
+  height: 90vh;
+  object-fit: cover;
 }
 
 main {
