@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kid Con 2026 | Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png" />
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="register.html">Register</a>
+      </div>
+    </nav>
+    <main>
+      <h1 class="title">Register</h1>
+      <form>
+        <h2>Registration</h2>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="firstname" required />
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="lastname" required />
+
+        <label for="email">Email Name:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="choose-your-ticket">Choose Ticket</label>
+        <select id="choose-your-ticket" name="choose-your-ticket" required>
+          <option value="">-- Select --</option>
+          <option value="fri">Friday ticket</option>
+          <option value="sat">Saturday ticket</option>
+          <option value="full">Full weekend pass</option>
+        </select>
+        <div class="form-box">
+          <p>Choose all Your Interests:</p>
+          <input type="checkbox" id="vr" name="vr" value="vr" />
+          <label for="vr"> Virtual Reality</label><br />
+          <input type="checkbox" id="slime" name="slime" value="slime" />
+          <label for="slime"> Slime Making</label><br />
+          <input
+            type="checkbox"
+            id="3d-printing"
+            name="3d-printing"
+            value="3d-printing"
+          />
+          <label for="3d-printing"> 3d Printing</label><br />
+        </div>
+
+        <label for="special-req"
+          >Do you have any food allergies or special requests?
+        </label>
+        <textarea
+          id="special-req"
+          name="special-req"
+          rows="4"
+          required
+        ></textarea>
+
+        <h2>Research Log</h2>
+
+        <label for="doc">Where did you find your documentation?</label>
+        <select id="doc" name="docs">
+          <option value="full">W3Schools</option>
+          <option value="fri">MDN Web Docs</option>
+          <option value="sat">CSS Tricks</option>
+          <option value="full">YouTube Tutorial</option>
+          <option value="full">Stack Overflow</option>
+          <option value="full">Other</option>
+        </select>
+
+        <div class="form-box">
+          <p>How successfully did you implement your new technique?</p>
+          <input type="radio" id="1" name="how_sucessful" value="1" checked />
+          <label for="1">It works exactly as I intended</label><br />
+          <input type="radio" id="2" name="how_sucessful" value="2" />
+          <label for="2">It mostly works - I got the main idea</label><br />
+          <input type="radio" id="3" name="how_sucessful" value="3" />
+          <label for="3"
+            >I could not get it fully working byt I understand what it
+            does</label
+          ><br />
+          <input type="radio" id="4" name="how_sucessful" value="4" />
+          <label for="4">I am still figuring it out</label><br />
+        </div>
+
+        <label for="text"
+          >What did you try, where did you find it, and what did you learn?
+        </label>
+        <textarea id="text" name="text" rows="4">
+Two to Three sentence response</textarea
+        >
+
+        <button type="submit">Sign Me Up</button>
+      </form>
+    </main>
+  </body>
+</html>
