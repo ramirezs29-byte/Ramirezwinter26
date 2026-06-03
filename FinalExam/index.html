@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
+    <header>
       <img src="logo.png" />
-      <div class="nav-links">
+      <nav>
         <a href="#home">Home</a>
         <a href="#carousel">Carousel</a>
         <a href="#about">About</a>
-      </div>
-    </nav>
+        <p>|</p>
+        <a href="schedule.html">Schedule</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="register.html">Register</a>
+      </nav>
+    </header>
     <main>
       <h1 id="home">Kid</h1>
       <h1 class="bottom-title">Con 2026</h1>
@@ -34,9 +38,9 @@
         </div>
       </div>
       <div class="buttons">
-        <a href="register.html" class="button">Register Now</a>
-        <a href="schedule.html" class="button">View Schedule</a>
-        <a href="speakers.html" class="button">View Speakers</a>
+        <a href="register.html">Register Now</a>
+        <a href="schedule.html">View Schedule</a>
+        <a href="speakers.html">View Speakers</a>
       </div>
       <div class="carousel" id="carousel">
         <div class="slide">
@@ -69,30 +73,31 @@
         </div>
       </div>
       <h2 id="about">About</h2>
-      <div class="about-cards">
-        <div class="card">
+      <article class="about-cards">
+        <section class="card">
           <h3>Interactive Booths</h3>
 
           <p>
             Every booth is completley hands on. Kids get to touch and experiment
             with everything.
           </p>
-        </div>
-        <div class="card">
+        </section>
+        <section class="card">
           <h3>Expert Mentors</h3>
           <p>
             You can meet real nasa scientists, video game desighners, and
             popular youtube creators who would teach you their skills.
           </p>
-        </div>
-        <div class="card">
+        </section>
+        <section class="card">
           <h3>Take Home</h3>
           <p>
             Every kid gets a custom goodie bag with 3d printed key chains and
             cool science kits to keep at home.
           </p>
-        </div>
-      </div>
+        </section>
+      </article>
     </main>
+    <footer>Sofia's Project 2026</footer>
   </body>
 </html>
